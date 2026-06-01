@@ -1,0 +1,14 @@
+[Unit]
+Description=Finance BI for BPR Interactive Course Streamlit Service
+After=network.target
+
+[Service]
+Type=simple
+WorkingDirectory=/root/finance-bi-course
+ExecStart=/root/sehatcare-landing/.venv/bin/streamlit run /root/finance-bi-course/course_app.py --server.address 127.0.0.1 --server.port 8502 --browser.gatherUsageStats false
+Restart=always
+RestartSec=5
+Environment=PYTHONUNBUFFERED=1
+
+[Install]
+WantedBy=multi-user.target

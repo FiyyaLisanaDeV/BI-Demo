@@ -1,0 +1,10 @@
+streamlit
+pandas
+numpy
+openpyxl
+xlsxwriter
+plotly
+faker
+python-dateutil
+pydantic
+pytest
