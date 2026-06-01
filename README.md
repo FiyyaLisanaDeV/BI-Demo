@@ -33,6 +33,7 @@ Sistem ini menyediakan 11 modul dashboard komprehensif yang membedah berbagai me
 - 🛡️ **Audit & Risk:** Pemantauan indikator risiko dan kepatuhan.
 - 🗣️ **Complaint Dashboard:** Rekap dan penanganan pengaduan nasabah.
 - 🧹 **Data Quality:** Metrik kualitas dan kebersihan data mentah.
+- 🌊 **Data Lake Explorer:** Akses langsung dan unduh semua file data di sistem (raw, mart, rejected).
 
 <br>
 
